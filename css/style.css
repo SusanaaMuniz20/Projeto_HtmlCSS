@@ -1,0 +1,269 @@
+body,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0e7e7;
+    color: #333;
+}
+
+header {
+    background-color: rgb(252, 250, 246);
+    border-bottom: 1px solid rgb(110, 3, 3);
+    padding: 20px 0;
+
+}
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+.escola {
+    background-image: url("../imagens/cursos2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(209, 206, 0);
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
+.escola-content {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.escola h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.escola p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.btn-aprenda {
+    display: inline-block;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-aprenda:hover {
+    background-color: #555;
+
+}
+
+.cursos {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cursos h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
+.curso-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.curso-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.curso-card img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.curso-card h3,
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.about {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.contato {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+.contato h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contato p,
+span {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.depoimento {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.depoimento:hover {
+    transform: translateY(-5px);
+}
+
+
+.depoimento img {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+
+}
+
+.depoimento h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: blue;
+
+}
+
+.depoimento p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.depoimento h2 {
+
+    font-size: 16px;
+    color: navy;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn-depoimento {
+    display: inline-block;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: auto 0;
+    text-align: center;
+}
+
+.btn-depoimento:hover {
+    background-color: #555;
+
+}
+
+.parcerias {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.parcerias img{
+max-width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+display: block;
+ margin: auto;
+}
+
+main h1{
+    color: #d6c800;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main p{
+    color: #555;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
